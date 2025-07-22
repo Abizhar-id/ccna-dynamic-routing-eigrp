@@ -7,7 +7,7 @@ Implementation of the **dynamic routing protocol EIGRP** (Enhanced Interior Gate
 
 ### 🖥️ **Topology**
 
-![Topology Diagram](Topology_1_VLAN.png)
+![Topology Diagram](Topology.png)
 
 ---
 
@@ -324,6 +324,8 @@ interface FastEthernet0/24
 
 int ra fa0/4-21, g0/1-2
  sh
+
+exit
 ```
 #### **8. Switch Configuration (SW4)**
 
@@ -360,6 +362,8 @@ interface FastEthernet0/23
 
 int ra fa0/4-21, fa0/24, g0/1-2
  sh
+
+exit
 ```
 
 #### **9. Switch Configuration (SW5)**
@@ -400,6 +404,8 @@ interface FastEthernet0/24
 
 int ra fa0/4-21, g0/1-2
  sh
+
+exit
 ```
 
 #### **10. Switch Configuration (SW6)**
@@ -437,6 +443,8 @@ interface FastEthernet0/23
 
 int ra fa0/4-21, g0/1-2, fa0/24
  sh
+
+exit
 ```
 
 #### **11. Switch Configuration (SW7)**
@@ -477,6 +485,8 @@ interface FastEthernet0/24
 
 int ra fa0/4-21, g0/1-2
  sh
+
+exit
 ```
 
 #### **12. Switch Configuration (SW8)**
@@ -514,15 +524,102 @@ interface FastEthernet0/23
 
 int ra fa0/4-21, g0/1-2, fa0/24
  sh
+
+exit
 ```
 
-#### **12. DHCP Server Configuration**
+#### **13. DHCP Server Configuration**
 - **IP Static**
   ![IP Static](Config_DHCP_Server/IP_DHCP_Server.png)
+<br>
 
+- **Serverpool IT**  
+  ![pool_IT](Config_DHCP_Server/IT.png)
+<br>
 
+- **Serverpool CS**
+  ![pool_CS](Config_DHCP_Server/CS.png)
+<br>
 
+- **Serverpool Finance**
+  ![pool_Finance](Config_DHCP_Server/Finance.png)
+<br>
+
+- **Serverpool Operations**
+  ![pool_OP](Config_DHCP_Server/OP.png)
+<br>
+
+- **Serverpool Marketing**
+  ![pool_Marketing](Config_DHCP_Server/Marketing.png)
+<br>
+
+- **Serverpool Sales**
+  ![pool_Sales](Config_DHCP_Server/Sales.png)
+<br>
+
+- **Serverpool Logistics**
+  ![pool_Logistics](Config_DHCP_Server/Logistics.png)
+<br>
+
+- **Serverpool Admin**
+  ![pool_Admin](Config_DHCP_Server/Admin.png)
+
+#### **14. Web Server Configuration**
+- **IP Static**
+  ![IP Static](Config_Web_Server/IP_Web_Server.png)
+<br>
+
+- **Web Service**
+  ![Web Service](Config_Web_Server/Service_Web.png)
+<br>
+
+#### **15. DNS Server Configuration**
+- **IP Static**
+  ![IP Static](Config_DNS_Server/IP_DNS_Server.png)
+<br>
+
+- **DNS Service**
+  ![DNS Service](Config_DNS_Server/Service_DNS.png)
+<br>
+
+#### **16. Access Point Configuration**
+- **AP IT**  
+  ![AP_IT](Config_AccessPoint/AP_IT.png)
+<br>
+
+- **AP CS**
+  ![AP_CS](Config_AccessPoint/AP_CS.png)
+<br>
+
+- **AP Finance**
+  ![AP_Finance](Config_AccessPoint/AP_Finance.png)
+<br>
+
+- **AP Operations**
+  ![AP_OP](Config_AccessPoint/AP_OP.png)
+<br>
+
+- **AP Marketing**
+  ![AP_Marketing](Config_AccessPoint/AP_Marketing.png)
+<br>
+
+- **AP Sales**
+  ![AP_Sales](Config_AccessPoint/AP_Sales.png)
+<br>
+
+- **AP Logistics**
+  ![AP_Logistics](Config_AccessPoint/AP_Logistics.png)
+<br>
+
+- **AP Admin**
+  ![AP_Admin](Config_AccessPoint/AP_Admin.png)
 
 ### ✅  **Testing Results**
-![Testing Diagram](Testing_Ping.jpeg)
+- **IP Dynamic**
+  ![IP_DHCP](Testing/IP_Dynamic.png)
+<br>
+
+- **Web Service**
+  ![Web_Service](Testing/Web_Service.png)
+
 
