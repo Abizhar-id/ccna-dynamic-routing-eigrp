@@ -630,16 +630,16 @@ exit
 - **Check Routing**
   - Router 1
   ![Check routing](Testing/Check_Routing-R1.png)
-<br>
+ <br>
 
   - Router 2
   ![Check routing](Testing/Check_Routing-R2.png)
-<br>
+ <br>
 
   - Router 3
   ![Check routing](Testing/Check_Routing-R3.png)
-<br>
+ <br>
 
-  - Router 3
+  - Router 4
   ![Check routing](Testing/Check_Routing-R4.png)
-<br>
+ <br>
