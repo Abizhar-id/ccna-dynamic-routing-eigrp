@@ -621,5 +621,25 @@ exit
 
 - **Web Service**
   ![Web_Service](Testing/Web_Service.png)
+<br>
 
+- **Ping End-to-End**
+  ![Ping end device](Testing/Ping_End_Device.png)
+<br>
 
+- **Check Routing**
+  - Router 1
+  ![Check routing](Testing/Check_Routing-R1.png)
+<br>
+
+  - Router 2
+  ![Check routing](Testing/Check_Routing-R2.png)
+<br>
+
+  - Router 3
+  ![Check routing](Testing/Check_Routing-R3.png)
+<br>
+
+  - Router 3
+  ![Check routing](Testing/Check_Routing-R4.png)
+<br>
